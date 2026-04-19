@@ -2,11 +2,7 @@
 name: Continuous Integration
 
 #  This section defines the events that will trigger the workflow
-<<<<<<< HEAD
-On:
-=======
 on:
->>>>>>> baf435a (Fix CI workflow formatting)
   push:
     branches: [ "main" ]
   pull_request:
@@ -17,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out code
+    - name: Check ou code
       uses: actions/checkout@v3
 
     - name: Set up Python 3.9
